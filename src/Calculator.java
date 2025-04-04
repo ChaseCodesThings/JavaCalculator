@@ -13,9 +13,9 @@ public class Calculator {
         frame.setVisible(true);
         frame.setSize(boardWidth, boardHeight);
         frame.setLocationRelativeTo(null);
-        //frame.setResizable(false);
+        //frame.setResizable(false); makes the calculator display resizable
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(new BorderLayout());
-        //hi
+
     }
 }
